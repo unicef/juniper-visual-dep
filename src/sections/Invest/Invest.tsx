@@ -54,7 +54,7 @@ export const Invest = () => {
           {matches ? null : (
             <Grid item xs={12} sm={3}>
               <SideDetails
-                firstNumber="11"
+                firstNumber="12"
                 firstLabel="investments"
                 middleNumber="01 btc"
                 middleLabel="bitcoin invested"
@@ -90,7 +90,7 @@ export const Invest = () => {
           label3={"Country"}
           detail1={"OS City + Atix Labs​"}
           detail2={"125 ETH"}
-          detail3={"Mexico"}
+          detail3={"Argentina"}
           button={"COMING SOON"}
           link={"Transaction Proof"}
           linkToProof={
