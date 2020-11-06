@@ -27,6 +27,134 @@ export const Invest = () => {
       minWidth: 991,
     })
   );
+  const investmentObjectDetails = [
+    {
+      title: 'Leveraging AI to analyse sentiment analysis and response of public services',
+      label1: 'Startup',
+      label2: 'Funding Amount',
+      label3: 'Country',
+      detail1: 'OS City + Atix Labs',
+      detail2: '125 ETH',
+      detail3: 'Argentina',
+      button: 'COMING SOON',
+      link: 'Transaction Proof',
+      linkToProof: ["https://etherscan.io/tx/0x7149a1e1fb2223ccbf968786ebdda078eb6c32f0953cd145925acd60f44de639", "https://etherscan.io/tx/0x881969e942992404eabfa95602f1fe197f21571933b69352bbcfcd952fefa178"],
+      linkToImage:'./OS-2.png',
+      altDescription: '',
+      color: '#FFD113',
+      fontColor: '#000000',
+      linkToProject: '',
+      time: '12 Oct 2020 05:08 UTC'
+    },
+    {
+      title: 'Democratising social impact financing with blockchain',
+      label1: 'Startup',
+      label2: 'Funding Amount',
+      label3: 'Country',
+      detail1: 'Atix Labs',
+      detail2: '01 BTC',
+      detail3: 'Argentina',
+      button: 'View Project',
+      link: 'Transaction Proof',
+      linkToProof: 'https://btc4.trezor.io/tx/001ef6f14df3b63f872c4cbdf7d3f36a15330eb9b9db4983f6c3b6d9093a8924',
+      linkToImage:'./Atix.png',
+      altDescription: '',
+      color: '#FFD113',
+      fontColor: '#000000',
+      linkToProject: 'https://www.unicef.org/innovation/FundGraduate/Atixlabs',
+      time: '08 Oct 2019 17:16 UTC'
+    },
+    {
+      title: 'Making sensitive clinical data portable, safe and private',
+      label1: 'Startup',
+      label2: 'Funding Amount',
+      label3: 'Country',
+      detail1: 'Prescrypto',
+      detail2: '49.5 ETH',
+      detail3: 'Mexico',
+      button: 'View Project',
+      link: 'Transaction Proof',
+      linkToProof: 'https://etherscan.io/tx/0x63b15553266e673f73315b93f9914a92d8208dfe8fa1d01dc119d156dc33d622',
+      linkToImage:'./Prescrypto.png',
+      altDescription: '',
+      color: '#0068ea',
+      fontColor: '#ffffff',
+      linkToProject: 'https://www.unicef.org/innovation/FundGraduate/Prescrypto',
+      time: '08 Oct 2019 15:54 UTC'
+    }, 
+    {
+      title: 'Using blockchain technology to inspire young people to become local changemakers',
+      label1: 'Startup',
+      label2: 'Funding Amount',
+      label3: 'Country',
+      detail1: 'Utopixar',
+      detail2: '49.5 ETH',
+      detail3: 'Tunisia',
+      button: 'View Project',
+      link: 'Transaction Proof',
+      linkToProof: 'https://etherscan.io/tx/0x5735e0524e936818369f2eac2ef7c917b74f00993d187ffdb738e287032e70a0',
+      linkToImage:'./Prescrypto.png',
+      altDescription: '',
+      color: '#ffd113',
+      fontColor: '#000',
+      linkToProject: 'https://www.unicef.org/innovation/FundGraduate/Coinsence',
+      time: '08 Oct 2019 15:57 UTC'
+    },
+    {
+      title: 'Using a low-cost Interactive Voice Response platform to send key information about COVID-19 in Cambodia',
+      label1: 'Startup',
+      label2: 'Funding Amount',
+      label3: 'Country',
+      detail1: 'Utopixar',
+      detail2: '125 ETH',
+      detail3: 'Cambodia',
+      button: 'View Project',
+      link: 'Transaction Proof',
+      linkToProof: 'https://etherscan.io/tx/0xea13d93f88bc5cc1c86b0c57e60ef0bd6a6c4446c623acc2622da7fbcbfec3e8',
+      linkToImage:'./Somleng.png',
+      altDescription: '',
+      color: '#0068ea',
+      fontColor: '#fff',
+      linkToProject: 'https://www.somleng.org/',
+      time: '18 Jun 2020 20:06 UTC' 
+    },
+    {
+      title: 'Using machine learning to facilitate early treatment to infants with neonatal sepsis',
+      label1: 'Startup',
+      label2: 'Funding Amount',
+      label3: 'Country',
+      detail1: 'Avyantra',
+      detail2: '125 ETH',
+      detail3: 'India',
+      button: 'View Project',
+      link: 'Transaction Proof',
+      linkToProof: 'https://etherscan.io/tx/0xe7951d7a78fa3581c48b8914c7f2c5737aeeab29989f65763c21bd1fa2134b06',
+      linkToImage:'./Avyantra.png',
+      altDescription: '',
+      color: '#ffd113',
+      fontColor: '#000',
+      linkToProject: 'https://www.unicef.org/innovation/stories/avyantra-using-machine-learning-facilitate-early-treatment-infants-neonatal-sepsis',
+      time: '18 Jun 2020 19:50 UTC' 
+    }, 
+    {
+      title: 'Improving food and vaccines distribution systems more efficiently through blockchain',
+      label1: 'Startup',
+      label2: 'Funding Amount',
+      label3: 'Country',
+      detail1: 'StaTwig',
+      detail2: '125 ETH',
+      detail3: 'India',
+      button: 'View Project',
+      link: 'Transaction Proof',
+      linkToProof: 'https://etherscan.io/tx/0x36a083becc6d49514c4fa8dc61ea398f01be0e681d9b79d640eccbf5bd4d80e4',
+      linkToImage:'./StaTwig.png',
+      altDescription: '',
+      color: '#0068ea',
+      fontColor: '#fff',
+      linkToProject: 'https://statwig.com',
+      time: '18 Jun 2020 19:52 UTC' 
+    }
+  ]
   return (
     <div>
       <div
@@ -34,7 +162,6 @@ export const Invest = () => {
         style={{
           paddingLeft: "14px",
           paddingRight: "14px",
-          // paddingBottom: "14px",
         }}
       >
         <Grid container>
@@ -83,163 +210,10 @@ export const Invest = () => {
         </Grid>
       </div>
       <div>
-      <InvestmentObject
-          title={"Leveraging AI to analyse sentiment analysis and response of public services "}
-          label1={"Startup"}
-          label2={"Funding Amount"}
-          label3={"Country"}
-          detail1={"OS City + Atix Labs​"}
-          detail2={"125 ETH"}
-          detail3={"Argentina"}
-          button={"COMING SOON"}
-          link={"Transaction Proof"}
-          linkToProof={
-            ["https://etherscan.io/tx/0x7149a1e1fb2223ccbf968786ebdda078eb6c32f0953cd145925acd60f44de639", "https://etherscan.io/tx/0x881969e942992404eabfa95602f1fe197f21571933b69352bbcfcd952fefa178"]
-          }
-          linkToImage={"./OS-2.png"}
-          altDescription={""}
-          color={"#ffd113"}
-          fontColor={"#000"}
-          linkToProject={
-            ""
-          }
-          time={"12 Oct 2020 05:08 UTC"}
-        />
+        {" add the latest on here "}
         <SelectionCriteria />
-        <InvestmentObject
-          title={"Democratising social impact financing with blockchain"}
-          label1={"Startup"}
-          label2={"Funding Amount"}
-          label3={"Country"}
-          detail1={"Atix Labs"}
-          detail2={"01 BTC"}
-          detail3={"Argentina"}
-          button={"View Project"}
-          link={"Transaction Proof"}
-          linkToProof={
-            "https://btc4.trezor.io/tx/001ef6f14df3b63f872c4cbdf7d3f36a15330eb9b9db4983f6c3b6d9093a8924"
-          }
-          linkToImage={"./Atix.png"}
-          altDescription={""}
-          color={"#ffd113"}
-          fontColor={"#000"}
-          linkToProject={
-            "https://www.unicef.org/innovation/FundGraduate/Atixlabs"
-          }
-          time={"08 Oct 2019 17:16 UTC"}
-        />
-        <InvestmentObject
-          title={"Making sensitive clinical data portable, safe and private"}
-          label1={"Startup"}
-          label2={"Funding Amount"}
-          label3={"Country"}
-          detail1={"Prescrypto"}
-          detail2={"49.5 ETH"}
-          detail3={"Mexico"}
-          button={"View Project"}
-          link={"Transaction Proof"}
-          linkToProof={
-            "https://etherscan.io/tx/0x63b15553266e673f73315b93f9914a92d8208dfe8fa1d01dc119d156dc33d622"
-          }
-          linkToImage={"Prescrypto.png"}
-          altDescription={""}
-          color={"#0068ea"}
-          fontColor={"#fff"}
-          linkToProject={
-            "https://www.unicef.org/innovation/fundgraduate/Prescrypto"
-          }
-          time={"08 Oct 2019 15:54 UTC"}
-        />
-        <InvestmentObject
-          title={
-            "Using blockchain technology to inspire young people to become local changemakers"
-          }
-          label1={"Startup"}
-          label2={"Funding Amount"}
-          label3={"Country"}
-          detail1={"Utopixar"}
-          detail2={"49.5 ETH"}
-          detail3={"Tunisia"}
-          button={"View Project"}
-          link={"Transaction Proof"}
-          linkToProof={
-            "https://etherscan.io/tx/0x5735e0524e936818369f2eac2ef7c917b74f00993d187ffdb738e287032e70a0"
-          }
-          linkToImage={"./Utopixar.png"}
-          altDescription={""}
-          color={"#ffd113"}
-          fontColor={"#000"}
-          linkToProject={
-            "https://www.unicef.org/innovation/fundgraduate/Coinsence"
-          }
-          time={"08 Oct 2019 15:57 UTC"}
-        />
-        <InvestmentObject
-          title={
-            "Using a low-cost Interactive Voice Response platform to send key information about COVID-19 in Cambodia"
-          }
-          label1={"Startup"}
-          label2={"Funding Amount"}
-          label3={"Country"}
-          detail1={"Somleng"}
-          detail2={"125 ETH"}
-          detail3={"Cambodia"}
-          button={"View Project"}
-          link={"Transaction Proof"}
-          linkToProof={
-            "https://etherscan.io/tx/0xea13d93f88bc5cc1c86b0c57e60ef0bd6a6c4446c623acc2622da7fbcbfec3e8"
-          }
-          linkToImage={"./Somleng.png"}
-          altDescription={""}
-          color={"#0068ea"}
-          fontColor={"#fff"}
-          linkToProject={"https://www.somleng.org"}
-        />
-        <InvestmentObject
-          title={
-            "Using machine learning to facilitate early treatment to infants with neonatal sepsis"
-          }
-          label1={"Startup"}
-          label2={"Funding Amount"}
-          label3={"Country"}
-          detail1={"Avyantra"}
-          detail2={"125 ETH"}
-          detail3={"India"}
-          button={"View Project"}
-          link={"Transaction Proof"}
-          linkToProof={
-            "https://etherscan.io/tx/0xe7951d7a78fa3581c48b8914c7f2c5737aeeab29989f65763c21bd1fa2134b06"
-          }
-          linkToImage={"./Avyantra.png"}
-          altDescription={""}
-          color={"#ffd113"}
-          fontColor={"#000"}
-          linkToProject={
-            "https://www.unicef.org/innovation/stories/avyantra-using-machine-learning-facilitate-early-treatment-infants-neonatal-sepsis"
-          }
-        />
+        {" start loop here from 0"}
 
-        <InvestmentObject
-          title={
-            "Improving food and vaccines distribution systems more efficiently through blockchain"
-          }
-          label1={"Startup"}
-          label2={"Funding Amount"}
-          label3={"Country"}
-          detail1={"StaTwig"}
-          detail2={"125 ETH"}
-          detail3={"India"}
-          button={"View Project"}
-          link={"Transaction Proof"}
-          linkToProof={
-            "https://etherscan.io/tx/0x36a083becc6d49514c4fa8dc61ea398f01be0e681d9b79d640eccbf5bd4d80e4"
-          }
-          linkToImage={"./StaTwig.png"}
-          altDescription={""}
-          color={"#0068ea"}
-          fontColor={"#fff"}
-          linkToProject={"https://statwig.com"}
-        />
         <InvestmentObject
           title={"Improving children's reading skills using VR technology"}
           label1={"Startup"}
