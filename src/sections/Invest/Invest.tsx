@@ -93,7 +93,7 @@ export const Invest = () => {
       button: 'View Project',
       link: 'Transaction Proof',
       linkToProof: 'https://etherscan.io/tx/0x5735e0524e936818369f2eac2ef7c917b74f00993d187ffdb738e287032e70a0',
-      linkToImage:'./Prescrypto.png',
+      linkToImage:'./Utopixar.png',
       altDescription: '',
       color: '#ffd113',
       fontColor: '#000',
@@ -153,6 +153,96 @@ export const Invest = () => {
       fontColor: '#fff',
       linkToProject: 'https://statwig.com',
       time: '18 Jun 2020 19:52 UTC' 
+    },
+    {
+      title: "Improving children's reading skills using VR technology",
+      label1: 'Startup',
+      label2: 'Funding Amount',
+      label3: 'Country',
+      detail1: 'UtopicStudio',
+      detail2: '125 ETH',
+      detail3: 'Chile',
+      button: 'View Project',
+      link: 'Transaction Proof',
+      linkToProof: 'https://etherscan.io/tx/0x30e928db6a6eb5d88bbdb8c19202308047683be8dd4b4f80fbe49db6c9e56cb9',
+      linkToImage:'./UtopicStudio.png',
+      altDescription: '',
+      color: '#ffd113',
+      fontColor: '#000',
+      linkToProject: 'https://utopicstudio.com',
+      time: '18 Jun 2020 19:41 UTC' 
+    }, 
+    {
+      title: "Utilizing VR technology to address phobias and social anxieties",
+      label1: 'Startup',
+      label2: 'Funding Amount',
+      label3: 'Country',
+      detail1: 'Ideasis',
+      detail2: '125 ETH',
+      detail3: 'Turkey',
+      button: 'View Project',
+      link: 'Transaction Proof',
+      linkToProof: 'https://etherscan.io/tx/0x776e0b64c76f58b7521e4e6de44026cfb6f2aa7186bc127b302544faabf83c5a',
+      linkToImage:'./Ideasis.png',
+      altDescription: '',
+      color: '#0068ea',
+      fontColor: '#fff',
+      linkToProject: 'http://www.ideasis.com.tr',
+      time: '18 Jun 2020 19:57 UTC' 
+    },
+    {
+      title: "Using artificial intelligence to provide access to quality early childhood education",
+      label1: 'Startup',
+      label2: 'Funding Amount',
+      label3: 'Country',
+      detail1: 'Afinidata',
+      detail2: '125 ETH',
+      detail3: 'Guatemala',
+      button: 'View Project',
+      link: 'Transaction Proof',
+      linkToProof: 'https://etherscan.io/tx/0x5a20f875d51ec96726ae484e9083cb3a93b0d2ced74692f473f8822b8722f20e',
+      linkToImage:'./Afinidata.png',
+      altDescription: '',
+      color: '#ffd113',
+      fontColor: '#000',
+      linkToProject: 'https://afinidata.com/en/home/',
+      time: '18 Jun 2020 20:06 UTC' 
+    },
+    {
+      title: "Aiding communication for children and adults with speech and language impairments",
+      label1: 'Startup',
+      label2: 'Funding Amount',
+      label3: 'Country',
+      detail1: 'Cireha',
+      detail2: '125 ETH',
+      detail3: 'Argentina',
+      button: 'View Project',
+      link: 'Transaction Proof',
+      linkToProof: 'https://etherscan.io/tx/0x5f7fa39683f421dc98b0981feef0573bd805293d38dfdbaa7bcab4438175c3bd',
+      linkToImage:'./Cireha.png',
+      altDescription: '',
+      color: '#0068ea',
+      fontColor: '#fff',
+      linkToProject: 'http://cireha.com.ar',
+      time: '18 Jun 2020 19:47 UTC' 
+    },
+    {
+      title: "Creating data-driven, verified cities through blockchain and AI",
+      label1: 'Startup',
+      label2: 'Funding Amount',
+      label3: 'Country',
+      detail1: 'OS City',
+      detail2: '125 ETH',
+      detail3: 'Mexico',
+      button: 'View Project',
+      link: 'Transaction Proof',
+      linkToProof: 'https://etherscan.io/tx/0x7df0ef84451e66e26046bb896c9ea7d4ab589b97c3fa80c080d18d0b3e22be1b',
+      linkToImage:'./OS.png',
+      altDescription: '',
+      color: '#ffd113',
+      fontColor: '#000',
+      linkToProject: 'https://www.unicef.org/innovation/stories/one-smart-creating-data-driven-verified-cities-through-blockchain-and-ai',
+      time: '18 Jun 2020 19:44 UTC' 
     }
   ]
   return (
@@ -210,115 +300,50 @@ export const Invest = () => {
         </Grid>
       </div>
       <div>
-        {" add the latest on here "}
+      <InvestmentObject
+                title={investmentObjectDetails[0].title}
+                label1={investmentObjectDetails[0].label1}
+                label2={investmentObjectDetails[0].label2}
+                label3={investmentObjectDetails[0].label3}
+                detail1={investmentObjectDetails[0].detail1}
+                detail2={investmentObjectDetails[0].detail2}
+                detail3={investmentObjectDetails[0].detail3}
+                button={investmentObjectDetails[0].button}
+                link={investmentObjectDetails[0].link}
+                linkToProof={investmentObjectDetails[0].linkToProof}
+                linkToImage={investmentObjectDetails[0].linkToImage}
+                altDescription={investmentObjectDetails[0].altDescription}
+                color={investmentObjectDetails[0].color}
+                fontColor={investmentObjectDetails[0].fontColor}
+                linkToProject={investmentObjectDetails[0].linkToProject}
+                time={investmentObjectDetails[0].time}
+              />
         <SelectionCriteria />
-        {" start loop here from 0"}
-
-        <InvestmentObject
-          title={"Improving children's reading skills using VR technology"}
-          label1={"Startup"}
-          label2={"Funding Amount"}
-          label3={"Country"}
-          detail1={"Utopic Studio"}
-          detail2={"125 ETH"}
-          detail3={"Chile"}
-          button={"View Project"}
-          link={"Transaction Proof"}
-          linkToProof={
-            "https://etherscan.io/tx/0x30e928db6a6eb5d88bbdb8c19202308047683be8dd4b4f80fbe49db6c9e56cb9"
-          }
-          linkToImage={"./UtopicStudio.png"}
-          altDescription={""}
-          color={"#ffd113"}
-          fontColor={"#000"}
-          linkToProject={"https://utopicstudio.com"}
-        />
-        <InvestmentObject
-          title={
-            "Utilizing VR technology to address phobias and social anxieties"
-          }
-          label1={"Startup"}
-          label2={"Funding Amount"}
-          label3={"Country"}
-          detail1={"Ideasis"}
-          detail2={"125 ETH"}
-          detail3={"Turkey"}
-          button={"View Project"}
-          link={"Transaction Proof"}
-          linkToProof={
-            "https://etherscan.io/tx/0x776e0b64c76f58b7521e4e6de44026cfb6f2aa7186bc127b302544faabf83c5a"
-          }
-          linkToImage={"./Ideasis.png"}
-          altDescription={""}
-          color={"#0068ea"}
-          fontColor={"#fff"}
-          linkToProject={"http://www.ideasis.com.tr"}
-        />
-        <InvestmentObject
-          title={
-            "Using artificial intelligence to provide access to quality early childhood education"
-          }
-          label1={"Startup"}
-          label2={"Funding Amount"}
-          label3={"Country"}
-          detail1={"Afinidata"}
-          detail2={"125 ETH"}
-          detail3={"Guatemala"}
-          button={"View Project"}
-          link={"Transaction Proof"}
-          linkToProof={
-            "https://etherscan.io/tx/0x5a20f875d51ec96726ae484e9083cb3a93b0d2ced74692f473f8822b8722f20e"
-          }
-          linkToImage={"./Afinidata.png"}
-          altDescription={""}
-          color={"#ffd113"}
-          fontColor={"#000"}
-          linkToProject={"https://afinidata.com/en/home/"}
-        />
-        <InvestmentObject
-          title={
-            "Aiding communication for children and adults with speech and language impairments"
-          }
-          label1={"Startup"}
-          label2={"Funding Amount"}
-          label3={"Country"}
-          detail1={"Cireha"}
-          detail2={"125 ETH"}
-          detail3={"Argentina"}
-          button={"View Project"}
-          link={"Transaction Proof"}
-          linkToProof={
-            "https://etherscan.io/tx/0x5f7fa39683f421dc98b0981feef0573bd805293d38dfdbaa7bcab4438175c3bd"
-          }
-          linkToImage={"./Cireha.png"}
-          altDescription={""}
-          color={"#0068ea"}
-          fontColor={"#fff"}
-          linkToProject={"http://cireha.com.ar"}
-        />
-        <InvestmentObject
-          title={
-            "Creating data-driven, verified cities through blockchain and AI"
-          }
-          label1={"Startup"}
-          label2={"Funding Amount"}
-          label3={"Country"}
-          detail1={"OS City"}
-          detail2={"125 ETH"}
-          detail3={"Mexico"}
-          button={"View Project"}
-          link={"Transaction Proof"}
-          linkToProof={
-            "https://etherscan.io/tx/0x7df0ef84451e66e26046bb896c9ea7d4ab589b97c3fa80c080d18d0b3e22be1b"
-          }
-          linkToImage={"./OS.png"}
-          altDescription={""}
-          color={"#ffd113"}
-          fontColor={"#000"}
-          linkToProject={
-            "https://www.unicef.org/innovation/stories/one-smart-creating-data-driven-verified-cities-through-blockchain-and-ai"
-          }
-        />
+        {
+          investmentObjectDetails.map((investmentObject, key) => {
+            if(key !== 0) {
+              return <InvestmentObject
+                title={investmentObject.title}
+                label1={investmentObject.label1}
+                label2={investmentObject.label2}
+                label3={investmentObject.label3}
+                detail1={investmentObject.detail1}
+                detail2={investmentObject.detail2}
+                detail3={investmentObject.detail3}
+                button={investmentObject.button}
+                link={investmentObject.link}
+                linkToProof={investmentObject.linkToProof}
+                linkToImage={investmentObject.linkToImage}
+                altDescription={investmentObject.altDescription}
+                color={investmentObject.color}
+                fontColor={investmentObject.fontColor}
+                linkToProject={investmentObject.linkToProject}
+                time={investmentObject.time}
+              />
+            }
+          })  
+        }
+        
       </div>
     </div>
   );
