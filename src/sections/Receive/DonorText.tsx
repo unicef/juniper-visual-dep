@@ -57,7 +57,7 @@ export const DonorText = () => {
     "Investing in open source technology to benefit children around the world wouldn’t be possible without our generous donors."
   );
   const [donorText2] = useState(
-    "We would like to thank our anchor donor, the Ethereum Foundation, for helping to launch the CryptoFund. If you are interested in making a donation in either bitcoin or ether, please, contact us."
+    "We would like to thank our donors, the Ethereum Foundation and Animoca Brands, for making a donation to the CryptoFund. If you are interested in making a donation in either bitcoin or ether, please, contact us."
   );
   // const [donorText3] = useState(".");
   // const [blockchainEmail] = useState("blockchain@unicef.org");
