@@ -194,9 +194,52 @@ export const Transaction = () => {
       "https://etherscan.io/tx/0x7149a1e1fb2223ccbf968786ebdda078eb6c32f0953cd145925acd60f44de639"
     ),
   ];
+  const TXTableRows18 = [
+    TXDetailRowCreate(
+      "Animoca Brands",
+      "UNICEF France",
+      "167 ETH",
+      "23 Dec 2020 11:36 UTC",
+      "https://etherscan.io/tx/0x27a4301ee1bd0006d1df69f1513f75b7b7df341d7083892f53b15912c0c3e55d"
+    ),
+    TXDetailRowCreate(
+      "UNICEF France",
+      "UNICEF HQ",
+      "167 ETH",
+      "05 Jan 2021 13:53 UTC",
+      "https://etherscan.io/tx/0x6d0217aa8ce7b49f00c53112b69cc504b3c68c42e72e06d7fe10585b3b7da78d"
+    ),
+  ];
   return (
     <div className={classes.root}>
       {/** NEW */}
+      <TransactionDetails
+        transactionType="Received"
+        startingParty="Animoca Brands"
+        partyType1="Donor"
+        middleParty="UNICEF France"
+        partyType2="National Committee"
+        endParty="UNICEF HQ"
+        partyType3="Recipient"
+        valueMoving="167 ETH"
+        valueType="Crypto Received"
+        TXTableRows={TXTableRows18}
+        field1={"Animoca Brands"} // from
+        field2={"UNICEF France"} // reciepient
+        field3={"167 ETH"} // amount
+        field4={"23 Dec 2020 11:36 UTC"} // time
+        field5={
+          "https://etherscan.io/tx/0x27a4301ee1bd0006d1df69f1513f75b7b7df341d7083892f53b15912c0c3e55d"
+        } // tx link
+        yes={true}
+        field6={"UNICEF France"} // from
+        field7={"UNICEF HQ"} // reciepient
+        field8={"167 ETH"} // amount
+        field9={"05 Jan 2021 13:53 UTC"} // time
+        field10={
+          "https://etherscan.io/tx/0x6d0217aa8ce7b49f00c53112b69cc504b3c68c42e72e06d7fe10585b3b7da78d"
+        } // tx link
+      />
       <TransactionDetails
         transactionType="Received"
         startingParty="Ethereum Foundation"

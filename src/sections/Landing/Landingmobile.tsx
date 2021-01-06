@@ -47,8 +47,8 @@ export const Landingmobile = () => {
           <LandingMobileCard
             title="Receive"
             link="/receive"
-            lineOne="1 donor"
-            lineTwo="2100 ether"
+            lineOne="2 donors"
+            lineTwo="2267 ether"
             lineThree="1 bitcoin"
             colorOne="#fff"
             colorTwo="#ffd113"

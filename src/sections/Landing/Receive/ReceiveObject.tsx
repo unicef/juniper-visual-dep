@@ -36,9 +36,9 @@ const useStyles = makeStyles({
 export const ReceiveObject = () => {
   const classes = useStyles();
   const [title] = useState("Received");
-  const [numberOfDonors] = useState(1);
+  const [numberOfDonors] = useState(2);
   const [amountOfBitcoin] = useState(1);
-  const [amountOfEther] = useState(2100);
+  const [amountOfEther] = useState(2267);
   return (
     <div className={classes.text}>
       <span className={classes.title}>{title}</span>
