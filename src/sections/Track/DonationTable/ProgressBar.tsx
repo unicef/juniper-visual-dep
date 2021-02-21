@@ -17,7 +17,7 @@ const useStyles = makeStyles({
 export const ProgressBar = (props: any) => {
   const classes = useStyles();
 
-  if (props.type == "Invested") {
+  if (props.type == "Invested" || props.type == "Directly Received") {
     return (
       <img
         className={classes.root}
