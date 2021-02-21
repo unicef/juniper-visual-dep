@@ -57,7 +57,7 @@ export const TrackMobileSummary = () => {
             <span className={classes.mainText}>Received</span>
           </div>
           <br />
-          <span className={classes.numberText}>02</span>
+          <span className={classes.numberText}>03</span>
           <br />
           <span className={classes.labelText}>Our Donors</span>
           <br />
@@ -65,7 +65,7 @@ export const TrackMobileSummary = () => {
           <br />
           <span className={classes.labelText}>Ether Received</span>
           <br />
-          <span className={classes.numberText}>01</span>
+          <span className={classes.numberText}>08</span>
           <br />
           <span className={classes.labelText}>Bitcoin Received</span>
           <br />
