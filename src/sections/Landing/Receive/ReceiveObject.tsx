@@ -36,13 +36,13 @@ const useStyles = makeStyles({
 export const ReceiveObject = () => {
   const classes = useStyles();
   const [title] = useState("Received");
-  const [numberOfDonors] = useState(2);
-  const [amountOfBitcoin] = useState(1);
+  const [numberOfDonors] = useState(3);
   const [amountOfEther] = useState(2267);
+  const [amountOfBitcoin] = useState(8);
   return (
     <div className={classes.text}>
       <span className={classes.title}>{title}</span>
-      <div className={classes.numberOfDonors}>{numberOfDonors} donor</div>
+      <div className={classes.numberOfDonors}>{numberOfDonors} donors</div>
       <div className={classes.amountOfBitcoin}> {amountOfEther} ether</div>
       <div className={classes.amountOfEther}> {amountOfBitcoin} bitcoin</div>
     </div>

@@ -48,9 +48,9 @@ export const Receive = () => {
           {matches ? (
             <Grid style={{ paddingBottom: "50px" }} item xs={12} sm={3}>
               <SideDetails
-                firstNumber="02"
+                firstNumber="03"
                 firstLabel="donors"
-                middleNumber="01 btc"
+                middleNumber="08 btc"
                 middleLabel="bitcoin received"
                 lastNumber="2267 eth"
                 lastLabel="ether received"
@@ -61,9 +61,9 @@ export const Receive = () => {
           {matches ? null : (
             <Grid item xs={12} sm={3}>
               <SideDetails
-                firstNumber="02"
+                firstNumber="03"
                 firstLabel="donors"
-                middleNumber="01 btc"
+                middleNumber="08 btc"
                 middleLabel="bitcoin received"
                 lastNumber="2267 eth"
                 lastLabel="ether received"

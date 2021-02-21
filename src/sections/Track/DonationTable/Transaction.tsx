@@ -210,9 +210,61 @@ export const Transaction = () => {
       "https://etherscan.io/tx/0x6d0217aa8ce7b49f00c53112b69cc504b3c68c42e72e06d7fe10585b3b7da78d"
     ),
   ];
+  const TXTableRows19 = [
+    TXDetailRowCreate(
+      "Huobi",
+      "UNICEF HQ",
+      "0.01 BTC",
+      "12 Feb 2021 21:53 UTC",
+      "https://www.blockchain.com/btc/tx/b318d9a16c35630cf944a374c0432e800a7981708b0f5784c29f54a5a7ecc011"
+    )
+  ];
+  const TXTableRows20 = [
+    TXDetailRowCreate(
+      "Huobi",
+      "UNICEF HQ",
+      "6.99 BTC",
+      "17 Feb 2021 07:14 UTC",
+      "https://www.blockchain.com/btc/tx/b515442b69fbaf99e85233671aedc9382f045a8cfa92062ca4a741faa3b1fddf"
+    )
+  ];
   return (
     <div className={classes.root}>
       {/** NEW */}
+      <TransactionDetails
+        transactionType="Directly Received"
+        startingParty="Huobi"
+        partyType1="Donor"
+        endParty="UNICEF HQ"
+        partyType3="Recipient"
+        valueMoving="6.99 BTC"
+        valueType="Crypto Received"
+        TXTableRows={TXTableRows20}
+        field1={"Huobi"} // from
+        field2={"UNICEF HQ"} // reciepient
+        field3={"6.99 BTC"} // amount
+        field4={"17 Feb 2021 07:14 UTC"} // time
+        field5={
+          "https://www.blockchain.com/btc/tx/b515442b69fbaf99e85233671aedc9382f045a8cfa92062ca4a741faa3b1fddf"
+        } // tx link
+      />
+      <TransactionDetails
+        transactionType="Directly Received"
+        startingParty="Huobi"
+        partyType1="Donor"
+        endParty="UNICEF HQ"
+        partyType3="Recipient"
+        valueMoving="0.01 BTC"
+        valueType="Crypto Received"
+        TXTableRows={TXTableRows19}
+        field1={"Huobi"} // from
+        field2={"UNICEF HQ"} // reciepient
+        field3={"0.01 BTC"} // amount
+        field4={"12 Feb 2021 21:53 UTC"} // time
+        field5={
+          "https://www.blockchain.com/btc/tx/b318d9a16c35630cf944a374c0432e800a7981708b0f5784c29f54a5a7ecc011"
+        } // tx link
+      />      
       <TransactionDetails
         transactionType="Received"
         startingParty="Animoca Brands"
