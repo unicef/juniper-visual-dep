@@ -94,7 +94,7 @@ export const Invest = () => {
           button={"COMING SOON"}
           link={"Transaction Proof"}
           linkToProof={
-            ["https://etherscan.io/tx/0x7149a1e1fb2223ccbf968786ebdda078eb6c32f0953cd145925acd60f44de639", "https://etherscan.io/tx/0x881969e942992404eabfa95602f1fe197f21571933b69352bbcfcd952fefa178"]
+            ["https://etherscan.io/tx/0x881969e942992404eabfa95602f1fe197f21571933b69352bbcfcd952fefa178", "https://etherscan.io/tx/0x7149a1e1fb2223ccbf968786ebdda078eb6c32f0953cd145925acd60f44de639"]
           }
           linkToImage={"./OS-2.png"}
           altDescription={""}
