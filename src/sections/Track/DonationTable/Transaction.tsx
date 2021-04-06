@@ -212,7 +212,7 @@ export const Transaction = () => {
   ];
   const TXTableRows19 = [
     TXDetailRowCreate(
-      "Huobi",
+      "Huobi Charity",
       "UNICEF HQ",
       "0.01 BTC",
       "12 Feb 2021 21:53 UTC",
@@ -221,7 +221,7 @@ export const Transaction = () => {
   ];
   const TXTableRows20 = [
     TXDetailRowCreate(
-      "Huobi",
+      "Huobi Charity",
       "UNICEF HQ",
       "6.99 BTC",
       "17 Feb 2021 07:14 UTC",
@@ -233,14 +233,14 @@ export const Transaction = () => {
       {/** NEW */}
       <TransactionDetails
         transactionType="Directly Received"
-        startingParty="Huobi"
+        startingParty="Huobi Charity"
         partyType1="Donor"
         endParty="UNICEF HQ"
         partyType3="Recipient"
         valueMoving="6.99 BTC"
         valueType="Crypto Received"
         TXTableRows={TXTableRows20}
-        field1={"Huobi"} // from
+        field1={"Huobi Charity"} // from
         field2={"UNICEF HQ"} // reciepient
         field3={"6.99 BTC"} // amount
         field4={"17 Feb 2021 07:14 UTC"} // time
@@ -250,14 +250,14 @@ export const Transaction = () => {
       />
       <TransactionDetails
         transactionType="Directly Received"
-        startingParty="Huobi"
+        startingParty="Huobi Charity"
         partyType1="Donor"
         endParty="UNICEF HQ"
         partyType3="Recipient"
         valueMoving="0.01 BTC"
         valueType="Crypto Received"
         TXTableRows={TXTableRows19}
-        field1={"Huobi"} // from
+        field1={"Huobi Charity"} // from
         field2={"UNICEF HQ"} // reciepient
         field3={"0.01 BTC"} // amount
         field4={"12 Feb 2021 21:53 UTC"} // time
