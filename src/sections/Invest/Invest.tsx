@@ -103,7 +103,7 @@ export const Invest = () => {
           linkToProject={
             "https://www.unicefinnovationfund.org/broadcast/updates/grassroots-economics-integrating-emergency-response-platform-stakeholders-access​"
           }
-          time={"12 Oct 2020 05:08 UTC"}
+          time={"15 Jun 2021 06:39 UTC"}
         />
         <InvestmentObject
           title={"Building a platform using blockchain and AI to increase easy, safe access to financial services"}
@@ -125,7 +125,7 @@ export const Invest = () => {
           linkToProject={
             "https://www.unicefinnovationfund.org/broadcast/updates/xcapit-building-platform-using-blockchain-and-ai-increase-easy-safe-access​"
           }
-          time={"12 Oct 2020 05:08 UTC"}
+          time={"15 Jun 2021 06:37 UTC"}
         />
         <InvestmentObject
           title={"Digital financial services for refugees and under-resourced communities​"}
@@ -147,7 +147,7 @@ export const Invest = () => {
           linkToProject={
             "https://www.unicefinnovationfund.org/broadcast/updates/leaf-wallet-digital-financial-services-refugees-and-under-resourced-communities​"
           }
-          time={"12 Oct 2020 05:08 UTC"}
+          time={"18 Jun 2021 06:30 UTC"}
         />
         <InvestmentObject
           title={"Developing a decentralized app for saving circles​"}
@@ -169,7 +169,7 @@ export const Invest = () => {
           linkToProject={
             "https://www.unicefinnovationfund.org/broadcast/updates/bx-smart-labs-developing-decentralized-app-saving-circles​"
           }
-          time={"12 Oct 2020 05:08 UTC"}
+          time={"15 Jun 2021 06:41 UTC"}
         />
         <InvestmentObject
           title={"Increasing access to financial instruments using blockchain and cryptocurrency​"}
@@ -191,7 +191,7 @@ export const Invest = () => {
           linkToProject={
             "https://www.unicefinnovationfund.org/broadcast/updates/kotani-pay-increasing-access-financial-instruments-using-blockchain-and​"
           }
-          time={"12 Oct 2020 05:08 UTC"}
+          time={"15 Jun 2021 06:44 UTC"}
         />
         <InvestmentObject
           title={"Transparent, Provable, and Immutable Acknowledgements​"}
@@ -213,7 +213,7 @@ export const Invest = () => {
           linkToProject={
             "https://www.unicef.org/innovation/stories/transparent-provable-and-immutable-acknowledgements"
           }
-          time={"12 Oct 2020 05:08 UTC"}
+          time={"27 May 2021 08:21 UTC"}
         />           
         <SelectionCriteria />
         <InvestmentObject
