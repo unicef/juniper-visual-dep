@@ -96,7 +96,7 @@ export const Invest = () => {
           linkToProof={
             ["https://etherscan.io/tx/0xf26612f7f21d6f73a5cb0172265218ae1ede79f4765c5bd6191c530a3b353669​"]
           }
-          // linkToImage={"./OS-2.png"}
+          linkToImage={"./Grassroots.png"}
           altDescription={""}
           color={"#0068ea"}
           fontColor={"#fff"}
@@ -118,7 +118,7 @@ export const Invest = () => {
           linkToProof={
             ["https://etherscan.io/tx/0x7ddab44045dfc0222e590a9b189e0d0f80ae87815604d924cb96c12024cf6423​"]
           }
-          // linkToImage={"./OS-2.png"}
+          linkToImage={"./Xcapit.jpg"}
           altDescription={""}
           color={"#ffd113"}
           fontColor={"#000"}
@@ -140,7 +140,7 @@ export const Invest = () => {
           linkToProof={
             ["https://etherscan.io/tx/0xd1baa35eece343105f536eaab82f776307baebb7d3d68492dfac60f5e5ebd73b​"]
           }
-          // linkToImage={"./OS-2.png"}
+          linkToImage={"./Leaf.jpeg"}
           altDescription={""}
           color={"#0068ea"}
           fontColor={"#fff"}
@@ -162,7 +162,7 @@ export const Invest = () => {
           linkToProof={
             ["https://etherscan.io/tx/0x31528d277a8cd70b38ad355ad2faf8086345e75a92f3ea422d1243c9fd9f4716​"]
           }
-          // linkToImage={"./OS-2.png"}
+          linkToImage={"./BXSmart.jpg"}
           altDescription={""}
           color={"#ffd113"}
           fontColor={"#000"}
@@ -184,7 +184,7 @@ export const Invest = () => {
           linkToProof={
             ["https://etherscan.io/tx/0xf430623b2c3dd13f62496225aee7ddb882b4a4f58cc0cd47bf3e629c0134f4e9"]
           }
-          // linkToImage={"./OS-2.png"}
+          linkToImage={"./KotaniPay.jpeg"}
           altDescription={""}
           color={"#0068ea"}
           fontColor={"#fff"}
@@ -206,7 +206,7 @@ export const Invest = () => {
           linkToProof={
             ["https://etherscan.io/tx/0xcd30bc97e89ef48ae159880a2e541817fc79934b39a370bc7b756d6052dbc855​"]
           }
-          // linkToImage={"./OS-2.png"}
+          linkToImage={"./OSCity.jpeg"}
           altDescription={""}
           color={"#ffd113"}
           fontColor={"#000"}
