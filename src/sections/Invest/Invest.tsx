@@ -41,11 +41,11 @@ export const Invest = () => {
           {matches ? (
             <Grid style={{ paddingBottom: "50px" }} item xs={12} sm={3}>
               <SideDetails
-                firstNumber="12"
+                firstNumber="18"
                 firstLabel="investments"
                 middleNumber="01 btc"
                 middleLabel="bitcoin invested"
-                lastNumber="1225 eth"
+                lastNumber="1327 eth"
                 lastLabel="ether invested"
               />
             </Grid>
@@ -54,11 +54,11 @@ export const Invest = () => {
           {matches ? null : (
             <Grid item xs={12} sm={3}>
               <SideDetails
-                firstNumber="12"
+                firstNumber="18"
                 firstLabel="investments"
                 middleNumber="01 btc"
                 middleLabel="bitcoin invested"
-                lastNumber="1225 eth"
+                lastNumber="1327 eth"
                 lastLabel="ether invested"
               />
               <div style={{ textAlign: "right", paddingTop: "-10px" }}>
@@ -84,12 +84,145 @@ export const Invest = () => {
       </div>
       <div>
       <InvestmentObject
+          title={"Integrating an emergency response platform for stakeholders to access digital payments"}
+          label1={"Startup"}
+          label2={"Funding Amount"}
+          label3={"Country"}
+          detail1={"Grassroots Economics"}
+          detail2={"25.11 ETH"}
+          detail3={"Kenya"}
+          button={"View Project"}
+          link={"Transaction Proof"}
+          linkToProof={
+            ["https://etherscan.io/tx/0xf26612f7f21d6f73a5cb0172265218ae1ede79f4765c5bd6191c530a3b353669​"]
+          }
+          linkToImage={"./Grassroots.png"}
+          altDescription={""}
+          color={"#0068ea"}
+          fontColor={"#fff"}
+          linkToProject={
+            "https://www.unicefinnovationfund.org/broadcast/updates/grassroots-economics-integrating-emergency-response-platform-stakeholders-access​"
+          }
+          time={"15 Jun 2021 06:39 UTC"}
+        />
+        <InvestmentObject
+          title={"Building a platform using blockchain and AI to increase easy, safe access to financial services"}
+          label1={"Startup"}
+          label2={"Funding Amount"}
+          label3={"Country"}
+          detail1={"Xcapit"}
+          detail2={"19.73 ETH"}
+          detail3={"Argentina"}
+          button={"View Project"}
+          link={"Transaction Proof"}
+          linkToProof={
+            ["https://etherscan.io/tx/0x7ddab44045dfc0222e590a9b189e0d0f80ae87815604d924cb96c12024cf6423​"]
+          }
+          linkToImage={"./Xcapit.jpg"}
+          altDescription={""}
+          color={"#ffd113"}
+          fontColor={"#000"}
+          linkToProject={
+            "https://www.unicefinnovationfund.org/broadcast/updates/xcapit-building-platform-using-blockchain-and-ai-increase-easy-safe-access​"
+          }
+          time={"15 Jun 2021 06:37 UTC"}
+        />
+        <InvestmentObject
+          title={"Digital financial services for refugees and under-resourced communities​"}
+          label1={"Startup"}
+          label2={"Funding Amount"}
+          label3={"Country"}
+          detail1={"Leaf Global Fintech​"}
+          detail2={"11.78 ETH"}
+          detail3={"Rwanda"}
+          button={"View Project"}
+          link={"Transaction Proof"}
+          linkToProof={
+            ["https://etherscan.io/tx/0xd1baa35eece343105f536eaab82f776307baebb7d3d68492dfac60f5e5ebd73b​"]
+          }
+          linkToImage={"./Leaf.jpeg"}
+          altDescription={""}
+          color={"#0068ea"}
+          fontColor={"#fff"}
+          linkToProject={
+            "https://www.unicefinnovationfund.org/broadcast/updates/leaf-wallet-digital-financial-services-refugees-and-under-resourced-communities​"
+          }
+          time={"18 Jun 2021 06:30 UTC"}
+        />
+        <InvestmentObject
+          title={"Developing a decentralized app for saving circles​"}
+          label1={"Startup"}
+          label2={"Funding Amount"}
+          label3={"Country"}
+          detail1={"BX Smart Labs"}
+          detail2={"9.17 ETH"}
+          detail3={"Mexico"}
+          button={"View Project"}
+          link={"Transaction Proof"}
+          linkToProof={
+            ["https://etherscan.io/tx/0x31528d277a8cd70b38ad355ad2faf8086345e75a92f3ea422d1243c9fd9f4716​"]
+          }
+          linkToImage={"./BXSmart.jpg"}
+          altDescription={""}
+          color={"#ffd113"}
+          fontColor={"#000"}
+          linkToProject={
+            "https://www.unicefinnovationfund.org/broadcast/updates/bx-smart-labs-developing-decentralized-app-saving-circles​"
+          }
+          time={"15 Jun 2021 06:41 UTC"}
+        />
+        <InvestmentObject
+          title={"Increasing access to financial instruments using blockchain and cryptocurrency​"}
+          label1={"Startup"}
+          label2={"Funding Amount"}
+          label3={"Country"}
+          detail1={"Kotani Pay"}
+          detail2={"8.91 ETH"}
+          detail3={"Kenya"}
+          button={"View Project"}
+          link={"Transaction Proof"}
+          linkToProof={
+            ["https://etherscan.io/tx/0xf430623b2c3dd13f62496225aee7ddb882b4a4f58cc0cd47bf3e629c0134f4e9"]
+          }
+          linkToImage={"./KotaniPay.jpeg"}
+          altDescription={""}
+          color={"#0068ea"}
+          fontColor={"#fff"}
+          linkToProject={
+            "https://www.unicefinnovationfund.org/broadcast/updates/kotani-pay-increasing-access-financial-instruments-using-blockchain-and​"
+          }
+          time={"15 Jun 2021 06:44 UTC"}
+        />
+        <InvestmentObject
+          title={"Transparent, Provable, and Immutable Acknowledgements​"}
+          label1={"Startup"}
+          label2={"Funding Amount"}
+          label3={"Country"}
+          detail1={"OS City"}
+          detail2={"27.00 ETH"}
+          detail3={"Mexico"}
+          button={"View Project"}
+          link={"Transaction Proof"}
+          linkToProof={
+            ["https://etherscan.io/tx/0xcd30bc97e89ef48ae159880a2e541817fc79934b39a370bc7b756d6052dbc855​"]
+          }
+          linkToImage={"./OSCity.jpeg"}
+          altDescription={""}
+          color={"#ffd113"}
+          fontColor={"#000"}
+          linkToProject={
+            "https://www.unicef.org/innovation/stories/transparent-provable-and-immutable-acknowledgements"
+          }
+          time={"27 May 2021 08:21 UTC"}
+        />           
+        <SelectionCriteria />
+        <InvestmentObject
           title={"Leveraging AI to analyse sentiment analysis and response of public services "}
           label1={"Startup"}
           label2={"Funding Amount"}
           label3={"Country"}
           detail1={"OS City + Atix Labs​"}
-          detail2={"125 ETH"}
+          detail2={"125.00 ETH"}
           detail3={"Argentina"}
           button={"COMING SOON"}
           link={"Transaction Proof"}
@@ -98,21 +231,20 @@ export const Invest = () => {
           }
           linkToImage={"./OS-2.png"}
           altDescription={""}
-          color={"#ffd113"}
-          fontColor={"#000"}
+          color={"#0068ea"}
+          fontColor={"#fff"}
           linkToProject={
             ""
           }
           time={"12 Oct 2020 05:08 UTC"}
-        />
-        <SelectionCriteria />
+        />        
         <InvestmentObject
           title={"Democratising social impact financing with blockchain"}
           label1={"Startup"}
           label2={"Funding Amount"}
           label3={"Country"}
           detail1={"Atix Labs"}
-          detail2={"01 BTC"}
+          detail2={"1.00 BTC"}
           detail3={"Argentina"}
           button={"View Project"}
           link={"Transaction Proof"}
@@ -134,7 +266,7 @@ export const Invest = () => {
           label2={"Funding Amount"}
           label3={"Country"}
           detail1={"Prescrypto"}
-          detail2={"49.5 ETH"}
+          detail2={"49.50 ETH"}
           detail3={"Mexico"}
           button={"View Project"}
           link={"Transaction Proof"}
@@ -158,7 +290,7 @@ export const Invest = () => {
           label2={"Funding Amount"}
           label3={"Country"}
           detail1={"Utopixar"}
-          detail2={"49.5 ETH"}
+          detail2={"49.50 ETH"}
           detail3={"Tunisia"}
           button={"View Project"}
           link={"Transaction Proof"}
@@ -182,7 +314,7 @@ export const Invest = () => {
           label2={"Funding Amount"}
           label3={"Country"}
           detail1={"Somleng"}
-          detail2={"125 ETH"}
+          detail2={"125.00 ETH"}
           detail3={"Cambodia"}
           button={"View Project"}
           link={"Transaction Proof"}
@@ -203,7 +335,7 @@ export const Invest = () => {
           label2={"Funding Amount"}
           label3={"Country"}
           detail1={"Avyantra"}
-          detail2={"125 ETH"}
+          detail2={"125.00 ETH"}
           detail3={"India"}
           button={"View Project"}
           link={"Transaction Proof"}
@@ -227,7 +359,7 @@ export const Invest = () => {
           label2={"Funding Amount"}
           label3={"Country"}
           detail1={"StaTwig"}
-          detail2={"125 ETH"}
+          detail2={"125.00 ETH"}
           detail3={"India"}
           button={"View Project"}
           link={"Transaction Proof"}
@@ -246,7 +378,7 @@ export const Invest = () => {
           label2={"Funding Amount"}
           label3={"Country"}
           detail1={"Utopic Studio"}
-          detail2={"125 ETH"}
+          detail2={"125.00 ETH"}
           detail3={"Chile"}
           button={"View Project"}
           link={"Transaction Proof"}
@@ -267,7 +399,7 @@ export const Invest = () => {
           label2={"Funding Amount"}
           label3={"Country"}
           detail1={"Ideasis"}
-          detail2={"125 ETH"}
+          detail2={"125.00 ETH"}
           detail3={"Turkey"}
           button={"View Project"}
           link={"Transaction Proof"}
@@ -288,7 +420,7 @@ export const Invest = () => {
           label2={"Funding Amount"}
           label3={"Country"}
           detail1={"Afinidata"}
-          detail2={"125 ETH"}
+          detail2={"125.00 ETH"}
           detail3={"Guatemala"}
           button={"View Project"}
           link={"Transaction Proof"}
@@ -309,7 +441,7 @@ export const Invest = () => {
           label2={"Funding Amount"}
           label3={"Country"}
           detail1={"Cireha"}
-          detail2={"125 ETH"}
+          detail2={"125.00 ETH"}
           detail3={"Argentina"}
           button={"View Project"}
           link={"Transaction Proof"}
@@ -330,7 +462,7 @@ export const Invest = () => {
           label2={"Funding Amount"}
           label3={"Country"}
           detail1={"OS City"}
-          detail2={"125 ETH"}
+          detail2={"125.00 ETH"}
           detail3={"Mexico"}
           button={"View Project"}
           link={"Transaction Proof"}
