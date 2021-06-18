@@ -57,20 +57,15 @@ export const DonorText = () => {
     "Investing in open source technology to benefit children around the world wouldn’t be possible without our generous donors."
   );
   const [donorText2] = useState(
-    "We would like to thank our donors, the Ethereum Foundation, Animoca Brands, and Huobi, for making a donation to the CryptoFund. If you are interested in making a donation in either bitcoin or ether, please, contact us."
+    "We would like to thank our donors, the Ethereum Foundation, Animoca Brands and Huobi Charity for making a donation to the CryptoFund, and to Chainlink for their technical support. If you are interested in donating in either bitcoin or ether, please contact us."
   );
-  // const [donorText3] = useState(".");
-  // const [blockchainEmail] = useState("blockchain@unicef.org");
 
   return (
     <div className={classes.root}>
       <div className={classes.backgroundTitle}>{backgroundTitle}</div>
       <div className={classes.backgroundText}>{donorText1}</div>
-      {/* <br /> */}
       <div className={classes.backgroundText}>
         {donorText2}
-        {/* <a href={`mailto:${blockchainEmail}`}>{blockchainEmail}</a> */}
-        {/* {donorText3} */}
       </div>
 
       <Button

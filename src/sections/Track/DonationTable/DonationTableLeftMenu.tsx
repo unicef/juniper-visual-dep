@@ -97,11 +97,11 @@ export const DonationTableLeftMenu = () => {
             <img src="/sidearrow.svg" alt="" className={classes.arrowicon} />
             <span className={classes.mainText}>Crypto Invested</span>
           </div>
-          <div className={classes.numberText}>12</div>
+          <div className={classes.numberText}>18</div>
           <div className={classes.labelText}>Investments</div>
           <div className={classes.numberText}>01 BTC</div>
           <div className={classes.labelText}>Bitcoin Invested</div>
-          <div className={classes.numberText}>1225 ETH</div>
+          <div className={classes.numberText}>1327 ETH</div>
           <div className={classes.labelText}>Ether Invested</div>
         </div>
       </div>

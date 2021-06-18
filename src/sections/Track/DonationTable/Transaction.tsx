@@ -228,9 +228,169 @@ export const Transaction = () => {
       "https://www.blockchain.com/btc/tx/b515442b69fbaf99e85233671aedc9382f045a8cfa92062ca4a741faa3b1fddf"
     )
   ];
+  const TXTableRows21 = [
+    TXDetailRowCreate(
+      "UNICEF HQ",
+      "OS City",
+      "27.00 ETH",
+      "27 May 2021 08:21 UTC",
+      "https://etherscan.io/tx/0xcd30bc97e89ef48ae159880a2e541817fc79934b39a370bc7b756d6052dbc855"
+    ),
+  ];
+
+  const TXTableRows22 = [
+    TXDetailRowCreate(
+      "UNICEF HQ",
+      "Kotani Pay",
+      "8.91 ETH",
+      "15 June 2021 06:44 UTC",
+      "https://etherscan.io/tx/0xf430623b2c3dd13f62496225aee7ddb882b4a4f58cc0cd47bf3e629c0134f4e9"
+    ),
+  ];
+  const TXTableRows23 = [
+    TXDetailRowCreate(
+      "UNICEF HQ",
+      "BX Smart Labs",
+      "9.17 ETH",
+      "15 June 2021 06:41 UTC",
+      "https://etherscan.io/tx/0x31528d277a8cd70b38ad355ad2faf8086345e75a92f3ea422d1243c9fd9f4716"
+    ),
+  ];
+  const TXTableRows24 = [
+    TXDetailRowCreate(
+      "UNICEF HQ",
+      "Leaf Global Fintech",
+      "11.78 ETH",
+      "18 June 2021 06:30 UTC",
+      "https://etherscan.io/tx/0xd1baa35eece343105f536eaab82f776307baebb7d3d68492dfac60f5e5ebd73b"
+    ),
+  ];
+  const TXTableRows25 = [
+    TXDetailRowCreate(
+      "UNICEF HQ",
+      "Xcapit",
+      "19.73 ETH",
+      "15 June 2021 06:37 UTC",
+      "https://etherscan.io/tx/0x7ddab44045dfc0222e590a9b189e0d0f80ae87815604d924cb96c12024cf6423"
+    ),
+  ];
+  const TXTableRows26 = [
+    TXDetailRowCreate(
+      "UNICEF HQ",
+      "Grassroots Economics",
+      "25.11 ETH",
+      "15 June 2021 06:39 UTC",
+      "https://etherscan.io/tx/0xf26612f7f21d6f73a5cb0172265218ae1ede79f4765c5bd6191c530a3b353669"
+    ),
+  ];
   return (
     <div className={classes.root}>
       {/** NEW */}
+      <TransactionDetails
+        transactionType="Invested"
+        startingParty="UNICEF HQ"
+        partyType1="HQ"
+        endParty="Grassroots Economics"
+        partyType3="Recipient"
+        valueMoving="25.11 ETH"
+        valueType="Crypto Received"
+        TXTableRows={TXTableRows26}
+        field1={"UNICEF HQ"} // from
+        field2={"Grassroots Economics"} // reciepient
+        field3={"25.11 ETH"} // amount
+        field4={"15 June 2021 06:39 UTC"} // time
+        field5={
+          "https://etherscan.io/tx/0xf26612f7f21d6f73a5cb0172265218ae1ede79f4765c5bd6191c530a3b353669"
+        } // tx link
+      />            
+      <TransactionDetails
+        transactionType="Invested"
+        startingParty="UNICEF HQ"
+        partyType1="HQ"
+        endParty="Xcapit"
+        partyType3="Recipient"
+        valueMoving="19.73 ETH"
+        valueType="Crypto Received"
+        TXTableRows={TXTableRows25}
+        field1={"UNICEF HQ"} // from
+        field2={"Xcapit"} // reciepient
+        field3={"19.73 ETH"} // amount
+        field4={"15 June 2021 06:37 UTC"} // time
+        field5={
+          "https://etherscan.io/tx/0x7ddab44045dfc0222e590a9b189e0d0f80ae87815604d924cb96c12024cf6423"
+        } // tx link
+      />            
+      <TransactionDetails
+        transactionType="Invested"
+        startingParty="UNICEF HQ"
+        partyType1="HQ"
+        endParty="Leaf Global Fintech"
+        partyType3="Recipient"
+        valueMoving="11.78 ETH"
+        valueType="Crypto Received"
+        TXTableRows={TXTableRows24}
+        field1={"UNICEF HQ"} // from
+        field2={"Leaf Global Fintech"} // reciepient
+        field3={"11.78 ETH"} // amount
+        field4={"18 June 2021 06:30 UTC"} // time
+        field5={
+          "https://etherscan.io/tx/0xd1baa35eece343105f536eaab82f776307baebb7d3d68492dfac60f5e5ebd73b"
+        } // tx link
+      />            
+
+      <TransactionDetails
+        transactionType="Invested"
+        startingParty="UNICEF HQ"
+        partyType1="HQ"
+        endParty="BX Smart Labs"
+        partyType3="Recipient"
+        valueMoving="9.17 ETH"
+        valueType="Crypto Received"
+        TXTableRows={TXTableRows23}
+        field1={"UNICEF HQ"} // from
+        field2={"BX Smart Labs"} // reciepient
+        field3={"9.17 ETH"} // amount
+        field4={"15 June 2021 06:41 UTC"} // time
+        field5={
+          "https://etherscan.io/tx/0x31528d277a8cd70b38ad355ad2faf8086345e75a92f3ea422d1243c9fd9f4716"
+        } // tx link
+      />            
+
+      <TransactionDetails
+        transactionType="Invested"
+        startingParty="UNICEF HQ"
+        partyType1="HQ"
+        endParty="Kotani Pay"
+        partyType3="Recipient"
+        valueMoving="8.91 ETH"
+        valueType="Crypto Received"
+        TXTableRows={TXTableRows22}
+        field1={"UNICEF HQ"} // from
+        field2={"Kotani Pay"} // reciepient
+        field3={"8.91 ETH"} // amount
+        field4={"15 June 2021 06:44 UTC"} // time
+        field5={
+          "https://etherscan.io/tx/0xf430623b2c3dd13f62496225aee7ddb882b4a4f58cc0cd47bf3e629c0134f4e9"
+        } // tx link
+      />      
+
+      <TransactionDetails
+        transactionType="Invested"
+        startingParty="UNICEF HQ"
+        partyType1="HQ"
+        endParty="OS City"
+        partyType3="Recipient"
+        valueMoving="27.00 ETH"
+        valueType="Crypto Received"
+        TXTableRows={TXTableRows21}
+        field1={"UNICEF HQ"} // from
+        field2={"OS City"} // reciepient
+        field3={"27.00 ETH"} // amount
+        field4={"27 May 2021 08:21 UTC"} // time
+        field5={
+          "https://etherscan.io/tx/0xcd30bc97e89ef48ae159880a2e541817fc79934b39a370bc7b756d6052dbc855​"
+        } // tx link
+      />
       <TransactionDetails
         transactionType="Directly Received"
         startingParty="Huobi"
