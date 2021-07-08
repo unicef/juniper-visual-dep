@@ -94,7 +94,7 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            ["https://etherscan.io/tx/0xf26612f7f21d6f73a5cb0172265218ae1ede79f4765c5bd6191c530a3b353669​"]
+            "https://etherscan.io/tx/0xf26612f7f21d6f73a5cb0172265218ae1ede79f4765c5bd6191c530a3b353669​"
           }
           linkToImage={"./Grassroots.png"}
           altDescription={""}
@@ -116,7 +116,7 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            ["https://etherscan.io/tx/0x7ddab44045dfc0222e590a9b189e0d0f80ae87815604d924cb96c12024cf6423​"]
+            "https://etherscan.io/tx/0x7ddab44045dfc0222e590a9b189e0d0f80ae87815604d924cb96c12024cf6423​"
           }
           linkToImage={"./Xcapit.jpg"}
           altDescription={""}
@@ -138,7 +138,7 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            ["https://etherscan.io/tx/0xd1baa35eece343105f536eaab82f776307baebb7d3d68492dfac60f5e5ebd73b​"]
+            "https://etherscan.io/tx/0xd1baa35eece343105f536eaab82f776307baebb7d3d68492dfac60f5e5ebd73b​"
           }
           linkToImage={"./Leaf.jpeg"}
           altDescription={""}
@@ -160,7 +160,7 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            ["https://etherscan.io/tx/0x31528d277a8cd70b38ad355ad2faf8086345e75a92f3ea422d1243c9fd9f4716​"]
+            "https://etherscan.io/tx/0x31528d277a8cd70b38ad355ad2faf8086345e75a92f3ea422d1243c9fd9f4716​"
           }
           linkToImage={"./BXSmart.jpg"}
           altDescription={""}
@@ -182,7 +182,7 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            ["https://etherscan.io/tx/0xf430623b2c3dd13f62496225aee7ddb882b4a4f58cc0cd47bf3e629c0134f4e9"]
+            "https://etherscan.io/tx/0xf430623b2c3dd13f62496225aee7ddb882b4a4f58cc0cd47bf3e629c0134f4e9"
           }
           linkToImage={"./KotaniPay.jpeg"}
           altDescription={""}
@@ -204,7 +204,7 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            ["https://etherscan.io/tx/0xcd30bc97e89ef48ae159880a2e541817fc79934b39a370bc7b756d6052dbc855​"]
+            "https://etherscan.io/tx/0xcd30bc97e89ef48ae159880a2e541817fc79934b39a370bc7b756d6052dbc855​"
           }
           linkToImage={"./OSCity.jpeg"}
           altDescription={""}
