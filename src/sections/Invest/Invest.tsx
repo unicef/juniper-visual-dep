@@ -27,6 +27,13 @@ export const Invest = () => {
       minWidth: 991,
     })
   );
+  function remove_non_ascii(str: string) {
+    if ((str===null) || (str===''))
+      return false;
+    else
+      str = str.toString();
+    return str.replace(/[^\x20-\x7E]/g, '');
+  }
   return (
     <div>
       <div
@@ -94,14 +101,14 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0xf26612f7f21d6f73a5cb0172265218ae1ede79f4765c5bd6191c530a3b353669​"
+            remove_non_ascii("https://etherscan.io/tx/0xf26612f7f21d6f73a5cb0172265218ae1ede79f4765c5bd6191c530a3b353669​")
           }
           linkToImage={"./Grassroots.png"}
           altDescription={""}
           color={"#0068ea"}
           fontColor={"#fff"}
           linkToProject={
-            "https://www.unicefinnovationfund.org/broadcast/updates/grassroots-economics-integrating-emergency-response-platform-stakeholders-access​"
+            remove_non_ascii("https://www.unicefinnovationfund.org/broadcast/updates/grassroots-economics-integrating-emergency-response-platform-stakeholders-access​")
           }
           time={"15 Jun 2021 06:39 UTC"}
         />
@@ -116,14 +123,14 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0x7ddab44045dfc0222e590a9b189e0d0f80ae87815604d924cb96c12024cf6423​"
+            remove_non_ascii("https://etherscan.io/tx/0x7ddab44045dfc0222e590a9b189e0d0f80ae87815604d924cb96c12024cf6423​")
           }
           linkToImage={"./Xcapit.jpg"}
           altDescription={""}
           color={"#ffd113"}
           fontColor={"#000"}
           linkToProject={
-            "https://www.unicefinnovationfund.org/broadcast/updates/xcapit-building-platform-using-blockchain-and-ai-increase-easy-safe-access​"
+            remove_non_ascii("https://www.unicefinnovationfund.org/broadcast/updates/xcapit-building-platform-using-blockchain-and-ai-increase-easy-safe-access​")
           }
           time={"15 Jun 2021 06:37 UTC"}
         />
@@ -138,14 +145,14 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0xd1baa35eece343105f536eaab82f776307baebb7d3d68492dfac60f5e5ebd73b​"
+            remove_non_ascii("https://etherscan.io/tx/0xd1baa35eece343105f536eaab82f776307baebb7d3d68492dfac60f5e5ebd73b​")
           }
           linkToImage={"./Leaf.jpeg"}
           altDescription={""}
           color={"#0068ea"}
           fontColor={"#fff"}
           linkToProject={
-            "https://www.unicefinnovationfund.org/broadcast/updates/leaf-wallet-digital-financial-services-refugees-and-under-resourced-communities​"
+            remove_non_ascii("https://www.unicefinnovationfund.org/broadcast/updates/leaf-wallet-digital-financial-services-refugees-and-under-resourced-communities​")
           }
           time={"18 Jun 2021 06:30 UTC"}
         />
@@ -160,14 +167,14 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0x31528d277a8cd70b38ad355ad2faf8086345e75a92f3ea422d1243c9fd9f4716​"
+            remove_non_ascii("https://etherscan.io/tx/0x31528d277a8cd70b38ad355ad2faf8086345e75a92f3ea422d1243c9fd9f4716​")
           }
           linkToImage={"./BXSmart.jpg"}
           altDescription={""}
           color={"#ffd113"}
           fontColor={"#000"}
           linkToProject={
-            "https://www.unicefinnovationfund.org/broadcast/updates/bx-smart-labs-developing-decentralized-app-saving-circles​"
+            remove_non_ascii("https://www.unicefinnovationfund.org/broadcast/updates/bx-smart-labs-developing-decentralized-app-saving-circles​")
           }
           time={"15 Jun 2021 06:41 UTC"}
         />
@@ -182,14 +189,14 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0xf430623b2c3dd13f62496225aee7ddb882b4a4f58cc0cd47bf3e629c0134f4e9"
+            remove_non_ascii("https://etherscan.io/tx/0xf430623b2c3dd13f62496225aee7ddb882b4a4f58cc0cd47bf3e629c0134f4e9")
           }
           linkToImage={"./KotaniPay.jpeg"}
           altDescription={""}
           color={"#0068ea"}
           fontColor={"#fff"}
           linkToProject={
-            "https://www.unicefinnovationfund.org/broadcast/updates/kotani-pay-increasing-access-financial-instruments-using-blockchain-and​"
+            remove_non_ascii("https://www.unicefinnovationfund.org/broadcast/updates/kotani-pay-increasing-access-financial-instruments-using-blockchain-and​")
           }
           time={"15 Jun 2021 06:44 UTC"}
         />
@@ -204,14 +211,14 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0xcd30bc97e89ef48ae159880a2e541817fc79934b39a370bc7b756d6052dbc855​"
+            remove_non_ascii("https://etherscan.io/tx/0xcd30bc97e89ef48ae159880a2e541817fc79934b39a370bc7b756d6052dbc855​")
           }
           linkToImage={"./OSCity.jpeg"}
           altDescription={""}
           color={"#ffd113"}
           fontColor={"#000"}
           linkToProject={
-            "https://www.unicef.org/innovation/stories/transparent-provable-and-immutable-acknowledgements"
+            remove_non_ascii("https://www.unicef.org/innovation/stories/transparent-provable-and-immutable-acknowledgements")
           }
           time={"27 May 2021 08:21 UTC"}
         />           
@@ -227,7 +234,7 @@ export const Invest = () => {
           button={"COMING SOON"}
           link={"Transaction Proof"}
           linkToProof={
-            ["https://etherscan.io/tx/0x881969e942992404eabfa95602f1fe197f21571933b69352bbcfcd952fefa178", "https://etherscan.io/tx/0x7149a1e1fb2223ccbf968786ebdda078eb6c32f0953cd145925acd60f44de639"]
+            [remove_non_ascii("https://etherscan.io/tx/0x881969e942992404eabfa95602f1fe197f21571933b69352bbcfcd952fefa178"), remove_non_ascii("https://etherscan.io/tx/0x7149a1e1fb2223ccbf968786ebdda078eb6c32f0953cd145925acd60f44de639")]
           }
           linkToImage={"./OS-2.png"}
           altDescription={""}
@@ -249,14 +256,14 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://btc4.trezor.io/tx/001ef6f14df3b63f872c4cbdf7d3f36a15330eb9b9db4983f6c3b6d9093a8924"
+            remove_non_ascii("https://btc4.trezor.io/tx/001ef6f14df3b63f872c4cbdf7d3f36a15330eb9b9db4983f6c3b6d9093a8924")
           }
           linkToImage={"./Atix.png"}
           altDescription={""}
           color={"#ffd113"}
           fontColor={"#000"}
           linkToProject={
-            "https://www.unicef.org/innovation/FundGraduate/Atixlabs"
+            remove_non_ascii("https://www.unicef.org/innovation/FundGraduate/Atixlabs")
           }
           time={"08 Oct 2019 17:16 UTC"}
         />
@@ -271,14 +278,14 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0x63b15553266e673f73315b93f9914a92d8208dfe8fa1d01dc119d156dc33d622"
+            remove_non_ascii("https://etherscan.io/tx/0x63b15553266e673f73315b93f9914a92d8208dfe8fa1d01dc119d156dc33d622")
           }
           linkToImage={"Prescrypto.png"}
           altDescription={""}
           color={"#0068ea"}
           fontColor={"#fff"}
           linkToProject={
-            "https://www.unicef.org/innovation/fundgraduate/Prescrypto"
+            remove_non_ascii("https://www.unicef.org/innovation/fundgraduate/Prescrypto")
           }
           time={"08 Oct 2019 15:54 UTC"}
         />
@@ -295,14 +302,14 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0x5735e0524e936818369f2eac2ef7c917b74f00993d187ffdb738e287032e70a0"
+            remove_non_ascii("https://etherscan.io/tx/0x5735e0524e936818369f2eac2ef7c917b74f00993d187ffdb738e287032e70a0")
           }
           linkToImage={"./Utopixar.png"}
           altDescription={""}
           color={"#ffd113"}
           fontColor={"#000"}
           linkToProject={
-            "https://www.unicef.org/innovation/fundgraduate/Coinsence"
+            remove_non_ascii("https://www.unicef.org/innovation/fundgraduate/Coinsence")
           }
           time={"08 Oct 2019 15:57 UTC"}
         />
@@ -319,13 +326,13 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0xea13d93f88bc5cc1c86b0c57e60ef0bd6a6c4446c623acc2622da7fbcbfec3e8"
+            remove_non_ascii("https://etherscan.io/tx/0xea13d93f88bc5cc1c86b0c57e60ef0bd6a6c4446c623acc2622da7fbcbfec3e8")
           }
           linkToImage={"./Somleng.png"}
           altDescription={""}
           color={"#0068ea"}
           fontColor={"#fff"}
-          linkToProject={"https://www.somleng.org"}
+          linkToProject={remove_non_ascii("https://www.somleng.org")}
         />
         <InvestmentObject
           title={
@@ -340,14 +347,14 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0xe7951d7a78fa3581c48b8914c7f2c5737aeeab29989f65763c21bd1fa2134b06"
+            remove_non_ascii("https://etherscan.io/tx/0xe7951d7a78fa3581c48b8914c7f2c5737aeeab29989f65763c21bd1fa2134b06")
           }
           linkToImage={"./Avyantra.png"}
           altDescription={""}
           color={"#ffd113"}
           fontColor={"#000"}
           linkToProject={
-            "https://www.unicef.org/innovation/stories/avyantra-using-machine-learning-facilitate-early-treatment-infants-neonatal-sepsis"
+            remove_non_ascii("https://www.unicef.org/innovation/stories/avyantra-using-machine-learning-facilitate-early-treatment-infants-neonatal-sepsis")
           }
         />
 
@@ -364,13 +371,13 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0x36a083becc6d49514c4fa8dc61ea398f01be0e681d9b79d640eccbf5bd4d80e4"
+            remove_non_ascii("https://etherscan.io/tx/0x36a083becc6d49514c4fa8dc61ea398f01be0e681d9b79d640eccbf5bd4d80e4")
           }
           linkToImage={"./StaTwig.png"}
           altDescription={""}
           color={"#0068ea"}
           fontColor={"#fff"}
-          linkToProject={"https://statwig.com"}
+          linkToProject={remove_non_ascii("https://statwig.com")}
         />
         <InvestmentObject
           title={"Improving children's reading skills using VR technology"}
@@ -383,13 +390,13 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0x30e928db6a6eb5d88bbdb8c19202308047683be8dd4b4f80fbe49db6c9e56cb9"
+            remove_non_ascii("https://etherscan.io/tx/0x30e928db6a6eb5d88bbdb8c19202308047683be8dd4b4f80fbe49db6c9e56cb9")
           }
           linkToImage={"./UtopicStudio.png"}
           altDescription={""}
           color={"#ffd113"}
           fontColor={"#000"}
-          linkToProject={"https://utopicstudio.com"}
+          linkToProject={remove_non_ascii("https://utopicstudio.com")}
         />
         <InvestmentObject
           title={
@@ -404,13 +411,13 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0x776e0b64c76f58b7521e4e6de44026cfb6f2aa7186bc127b302544faabf83c5a"
+            remove_non_ascii("https://etherscan.io/tx/0x776e0b64c76f58b7521e4e6de44026cfb6f2aa7186bc127b302544faabf83c5a")
           }
           linkToImage={"./Ideasis.png"}
           altDescription={""}
           color={"#0068ea"}
           fontColor={"#fff"}
-          linkToProject={"http://www.ideasis.com.tr"}
+          linkToProject={remove_non_ascii("http://www.ideasis.com.tr")}
         />
         <InvestmentObject
           title={
@@ -425,13 +432,13 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0x5a20f875d51ec96726ae484e9083cb3a93b0d2ced74692f473f8822b8722f20e"
+            remove_non_ascii("https://etherscan.io/tx/0x5a20f875d51ec96726ae484e9083cb3a93b0d2ced74692f473f8822b8722f20e")
           }
           linkToImage={"./Afinidata.png"}
           altDescription={""}
           color={"#ffd113"}
           fontColor={"#000"}
-          linkToProject={"https://afinidata.com/en/home/"}
+          linkToProject={remove_non_ascii("https://afinidata.com/en/home/")}
         />
         <InvestmentObject
           title={
@@ -446,13 +453,13 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0x5f7fa39683f421dc98b0981feef0573bd805293d38dfdbaa7bcab4438175c3bd"
+            remove_non_ascii("https://etherscan.io/tx/0x5f7fa39683f421dc98b0981feef0573bd805293d38dfdbaa7bcab4438175c3bd")
           }
           linkToImage={"./Cireha.png"}
           altDescription={""}
           color={"#0068ea"}
           fontColor={"#fff"}
-          linkToProject={"http://cireha.com.ar"}
+          linkToProject={remove_non_ascii("http://cireha.com.ar")}
         />
         <InvestmentObject
           title={
@@ -467,14 +474,14 @@ export const Invest = () => {
           button={"View Project"}
           link={"Transaction Proof"}
           linkToProof={
-            "https://etherscan.io/tx/0x7df0ef84451e66e26046bb896c9ea7d4ab589b97c3fa80c080d18d0b3e22be1b"
+            remove_non_ascii("https://etherscan.io/tx/0x7df0ef84451e66e26046bb896c9ea7d4ab589b97c3fa80c080d18d0b3e22be1b")
           }
           linkToImage={"./OS.png"}
           altDescription={""}
           color={"#ffd113"}
           fontColor={"#000"}
           linkToProject={
-            "https://www.unicef.org/innovation/stories/one-smart-creating-data-driven-verified-cities-through-blockchain-and-ai"
+            remove_non_ascii("https://www.unicef.org/innovation/stories/one-smart-creating-data-driven-verified-cities-through-blockchain-and-ai")
           }
         />
       </div>

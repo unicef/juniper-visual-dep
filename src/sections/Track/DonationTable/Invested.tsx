@@ -11,6 +11,13 @@ const useStyles = makeStyles((theme: Theme) => ({
 
 export const Invested = () => {
   const classes = useStyles();
+  function remove_non_ascii(str: string) {
+    if ((str===null) || (str===''))
+      return false;
+    else
+      str = str.toString();
+    return str.replace(/[^\x20-\x7E]/g, '');
+  }
   function TXDetailRowCreate(
     from: string,
     recipient: string,

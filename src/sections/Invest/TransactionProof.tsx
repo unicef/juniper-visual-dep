@@ -203,42 +203,42 @@ export default function TransactionProof(props: any) {
             
               {
                 Array.isArray(props.linkToProof) ?
-                
                   props.linkToProof.map((link: any, key: any) => {
                     return <Grid container style={{ paddingTop: "10px" }}>
                     <Grid item xs={2} className={classes.sender}>
-                    UNICEF HQ
-                  </Grid>
-                  <Grid item xs={2} className={classes.sender}>
-                    {props.recipient.includes('+') ? props.recipient.split('+')[key] : props.recipient
-                    
-                    }
-                  </Grid>
-                  <Grid item xs={2} className={classes.sender}>
-                    {(parseFloat(props.amount)/2).toFixed(1) + ' ETH'}
-                  </Grid>
-                  <Grid item xs={3} className={classes.sender}>
-                    {props.time}
-                  </Grid>
-                  <Grid item xs={3} className={classes.sender}>
-                    <a href={link}>Link</a>
-                  </Grid></Grid>
-                  })
-                    : (<Grid container style={{ paddingTop: "10px" }}><Grid item xs={2} className={classes.sender}>
-                    UNICEF HQ
-                  </Grid>
-                  <Grid item xs={2} className={classes.sender}>
-                    {props.recipient}
-                  </Grid>
-                  <Grid item xs={2} className={classes.sender}>
-                    {props.amount}
-                  </Grid>
-                  <Grid item xs={3} className={classes.sender}>
-                    {props.time}
-                  </Grid>
-                  <Grid item xs={3} className={classes.sender}>
-                    <a href={props.linkToProof}>Link</a>
-                  </Grid> </Grid>)
+                      UNICEF HQ
+                    </Grid>
+                    <Grid item xs={2} className={classes.sender}>
+                      {props.recipient.includes('+') ? props.recipient.split('+')[key] : props.recipient}
+                    </Grid>
+                    <Grid item xs={2} className={classes.sender}>
+                      {(parseFloat(props.amount)/2).toFixed(1) + ' ETH'}
+                    </Grid>
+                    <Grid item xs={3} className={classes.sender}>
+                      {props.time}
+                    </Grid>
+                    <Grid item xs={3} className={classes.sender}>
+                      <a href={link}>Link</a>
+                    </Grid>
+                  </Grid>})
+                    : (
+                    <Grid container style={{ paddingTop: "10px" }}>
+                      <Grid item xs={2} className={classes.sender}>
+                        UNICEF HQ
+                      </Grid>
+                      <Grid item xs={2} className={classes.sender}>
+                        {props.recipient}
+                      </Grid>
+                      <Grid item xs={2} className={classes.sender}>
+                        {props.amount}
+                      </Grid>
+                      <Grid item xs={3} className={classes.sender}>
+                        {props.time}
+                      </Grid>
+                      <Grid item xs={3} className={classes.sender}>
+                        <a href={props.linkToProof}>Link</a>
+                      </Grid>
+                    </Grid>)
               }
           </Grid>
           {/* table with details */}
