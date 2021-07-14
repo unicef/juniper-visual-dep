@@ -527,11 +527,11 @@ export const Invested = () => {
         partyType1="Donor"
         endParty="Atix Labs"
         partyType3="Recipient"
-        valueMoving="49.5 ETH"
+        valueMoving="1 BTC"
         valueType="Crypto Received"
         field1={"UNICEF HQ"} // from
         field2={"Atix Labs"} // reciepient
-        field3={"49.5 ETH"} // amount
+        field3={"1 BTC"} // amount
         field4={"08 Oct 2019 17:16 UTC"} // time
         field5={
           "https://btc1.trezor.io/tx/001ef6f14df3b63f872c4cbdf7d3f36a15330eb9b9db4983f6c3b6d9093a8924"
